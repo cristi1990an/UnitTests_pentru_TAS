@@ -1,0 +1,5 @@
+﻿  tensor_introduction.cpp
+  Generating code
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  Finished generating code
+  Tensor++.vcxproj -> D:\OneDrive\Personal projects\Tensor++\x64\Release\Tensor++.exe

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{17b81c9f-9547-491e-9432-ae44af234836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="introduction">
+      <UniqueIdentifier>{05709b09-cea7-4811-89cf-70896e97f015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing suits">
+      <UniqueIdentifier>{eaf92fe1-8ba7-42e0-abc5-f0725a940a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing suits\inc">
+      <UniqueIdentifier>{59e834b4-06bf-4462-8408-789f95180d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing suits\src">
+      <UniqueIdentifier>{57392da2-c480-4ef1-922e-b79ee7d21c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing suits\inc\benchmarks">
+      <UniqueIdentifier>{1b093505-41a0-4571-b03f-c3458de180b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing suits\inc\tests">
+      <UniqueIdentifier>{fd26d1b8-bb73-4d4c-b412-f4427020d06d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\tensor.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\benchmarks\benchmark.hpp">
+      <Filter>testing suits\inc\benchmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_const_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_initialization_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_iteration_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_move_semantics_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_replace_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_resize_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="testing suits\inc\tests\tensor_testing_suit.hpp">
+      <Filter>testing suits\inc\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="introduction\tensor_introduction_helpers.hpp">
+      <Filter>introduction</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\tensor_useful_concepts.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\tensor_useful_specializations.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="introduction\tensor_introduction.cpp">
+      <Filter>introduction</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
